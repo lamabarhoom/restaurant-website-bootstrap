@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animated Portfolio - Al-Aqsa University</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <input type="checkbox" id="theme-toggle" class="theme-input">
+    
+    <div class="content-wrapper">
+        <div class="loader">
+            <div class="spinner"></div>
+        </div>
+
+        <nav class="navbar">
+            <div class="logo">MyPortfolio</div>
+            <label for="theme-toggle" class="toggle-btn">
+                <span>Change Theme</span>
+                <div class="toggle-icon"></div>
+            </label>
+        </nav>
+
+        <header class="hero">
+            <h1 class="fade-in">John Doe</h1>
+            <p class="slide-up">Web Development Student @ Al-Aqsa University</p>
+            
+            <div class="profile-container pulse">
+                <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=400&h=400&fit=crop" alt="Profile">
+            </div>
+        </header>
+
+        <section class="skills-section">
+            <h2 class="slide-up">Technical Skills</h2>
+            <div class="skill-item">
+                <div class="skill-info">
+                    <span>HTML / CSS</span>
+                    <span>90%</span>
+                </div>
+                <div class="progress-bar"><div class="progress html"></div></div>
+            </div>
+            <div class="skill-item">
+                <div class="skill-info">
+                    <span>Animations & Transitions</span>
+                    <span>85%</span>
+                </div>
+                <div class="progress-bar"><div class="progress animations"></div></div>
+            </div>
+        </section>
+
+        <h2 class="section-title slide-up">My Projects</h2>
+        <div class="gallery">
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=500&h=350&fit=crop" alt="UI Design">
+                <div class="overlay">
+                    <h3>UI/UX Design</h3>
+                    <p>Modern Dashboard Layout</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=500&h=350&fit=crop" alt="Web Dev">
+                <div class="overlay">
+                    <h3>Web Development</h3>
+                    <p>Responsive Web Apps</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1515879218367-8466d910aaa4?w=500&h=350&fit=crop" alt="Clean Code">
+                <div class="overlay">
+                    <h3>Clean Code</h3>
+                    <p>Python & JS Optimization</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
