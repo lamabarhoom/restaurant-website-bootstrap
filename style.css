@@ -1,0 +1,88 @@
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #fafafa;
+  color: #222;
+  padding-top: 76px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  letter-spacing: -0.02em;
+}
+
+.navbar-brand {
+  letter-spacing: 0.2rem;
+}
+
+.hero-carousel-img {
+  height: 82vh;
+  object-fit: cover;
+}
+
+.carousel-caption {
+  background: rgba(0, 0, 0, 0.45);
+  border-radius: 12px;
+  padding: 1rem 1.25rem;
+  bottom: 2rem;
+}
+
+.hero-card {
+  background: rgba(255, 255, 255, 0.95);
+  backdrop-filter: blur(8px);
+}
+
+.hero-showcase {
+  height: 420px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.feature-card,
+.testimonial-card,
+.stat-card {
+  background: #fff;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.feature-card:hover,
+.testimonial-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.08) !important;
+}
+
+.feature-icon {
+  font-size: 1.8rem;
+}
+
+.card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border: none;
+}
+
+.card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1) !important;
+}
+
+.menu-img {
+  height: 220px;
+  object-fit: cover;
+}
+
+.bg-custom-dark {
+  background-color: #1a1a1a;
+}
+
+@media (max-width: 768px) {
+  .hero-showcase {
+    height: 260px;
+  }
+
+  .hero-section {
+    min-height: auto;
+  }
+}
